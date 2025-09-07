@@ -4,7 +4,7 @@ class Emp {
     int age;
     double salary;
     String department;
-    Emp(String name,int age,double Salary,String department){
+    Emp(String name,int age,double salary,String department){
         this.name=name;
         this.age=age;
         this.salary=salary;
