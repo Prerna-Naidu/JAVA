@@ -9,5 +9,6 @@ class Main1{
         userName= myObj.nextLine();
 
         System.out.println("Username is: " +userName);
+        myObj.close();
     }
 }

@@ -3,10 +3,10 @@ interface msg{
     void message2();
 }
 class Interface implements msg{
-    void message1(){
+    public void message1(){
         System.out.println("Good Morning");
     }
-    void message2(){
+    public void message2(){
         System.out.println("Good Evening");
     }
     public static void main(String[] args) {
